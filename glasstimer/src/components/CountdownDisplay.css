@@ -1,0 +1,39 @@
+.countdown-display {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  will-change: transform, box-shadow, border-color;
+}
+
+.countdown-content {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+
+.countdown-value {
+  font-family: 'SF Mono', 'SF Pro Display', -apple-system, 'Segoe UI', Roboto, monospace;
+  font-size: 28px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: rgba(255, 255, 255, 0.95);
+  letter-spacing: -0.02em;
+}
+
+.countdown-unit {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.done-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+  letter-spacing: 0.02em;
+}
